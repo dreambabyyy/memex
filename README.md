@@ -2,7 +2,7 @@ Installation and Setup
 Clone the project:
 
         git clone https://github.com/dreambabyyy/memex.git
-        cd MemeX888
+        cd memex
         
 Install dependencies:
 
@@ -15,12 +15,25 @@ Create a queries.txt file in the project directory to configure QueryIDs (user i
 Get QueryID:
 
 If using Telegram WebApp:
+
+
 Open the Telegram WebApp.
+
+
 Press F12 to open Developer Tools and switch to the Console panel.
+
+
 Enter the following command to get initData:
+
         copy(Telegram.WebApp.initData)
+
+
 You will get a response like:
+
+
 query_id=...&user=%7B%22username%22%3A%22Alexyamin%22%7D&...
+
+
 Run the script:
 
         node memex-proxy.js
