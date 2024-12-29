@@ -36,4 +36,10 @@ query_id=...&user=%7B%22username%22%3A%22Alexyamin%22%7D&...
 
 Run the script:
 
+IF u No use proxy run with
+
+        node memex.js
+
+If u use Proxy Run With
+
         node memex-proxy.js
